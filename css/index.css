@@ -1,0 +1,108 @@
+body {
+    margin: 0 auto !important;
+}
+.carousel {
+  height: auto;
+  margin-bottom: 60px;
+}
+.first-slide .second-slide .third-slide {
+    height: inherit;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.h1, h1 {
+    font-size: 4vw !important;
+}
+.carousel-inner {
+    height: 100vh !important;
+}
+.carousel-inner > .item > img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px !important;
+}
+#logo img {
+    position: absolute !important;
+    z-index: 1;
+    margin: 100px 200px !important;
+    width: 20%;
+}
+#section1 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.84);
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block !important;
+    max-width: 100% !important;
+    height: 100vh !important;
+}
+/*navbar*/
+header {
+    position: relative !important;
+    margin: 0 auto !important;
+}
+.navbar-nav {
+    float: right !important;
+    margin-right: 30px !important;
+    margin: 30px !important;
+    background: rgba(0, 0, 0, 0.34) !important;
+    border-radius: 20px !important;
+}
+.navbar-inverse {
+    background-color: rgba(138, 53, 53, 0) !important;
+    border-color: rgba(8, 8, 8, 0) !important;
+}
+.navbar-inverse  {
+    background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%) !important;
+    background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%) !important;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222)) !important;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.37) 0,rgba(0, 0, 0, 0) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) !important;
+    background-repeat: repeat-x !important;
+    border-radius: 4px !important;
+}
+.container {
+    position: absolute !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    /*max-width: 1000px !important;*/
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff !important;
+}
+
+/*navbar*/
+.row {
+    margin: auto !important;
+    text-align: center;
+}
+#map {
+    width: 100% !important;
+    height: 20vh;
+}
+.maxsection {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#kontakty {
+     margin: auto !important;
+    text-align: center !important;
+}
+#menu {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.84);
+}
+#section2 {
+   padding-top: 5%;
+}
