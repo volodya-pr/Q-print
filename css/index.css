@@ -119,3 +119,10 @@ bottom: 10px; /* отступ снизу */
 display: none; /* спрятать блок */
 cursor: pointer;
 }
+.col-lg-4:hover
+{
+    box-shadow: inset 0 0 0 18px #ddd;
+}
+.img-circle {
+    background: #ccc;
+}
